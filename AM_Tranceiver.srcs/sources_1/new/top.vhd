@@ -63,7 +63,7 @@ variable i : integer := 0;
 variable ch : CHARACTER;
 variable poo : STD_LOGIC_VECTOR(23 downto 0) := "000000000000000000000000";
 begin
-file_open(results, "C:/Users/thakk/AM_Tranceiver/results.txt", WRITE_MODE);
+file_open(results, "C:/Users/17326/AM_Tranceiver/results.txt", WRITE_MODE);
 z := to_bitvector(adout);
 write(OLine, z, right, 25);
 writeline(results, OLine);
